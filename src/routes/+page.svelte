@@ -4,7 +4,7 @@
 
 <Navigation />
 
-<div class="flex flex-col items-center gap-4 pt-16">
+<div class="flex flex-col items-center gap-4">
   <!-- start of avatar -->
   <img class="size-60 rounded-full" src="/kyaneko.png" alt="avatar" />
   <!-- end of avatar -->

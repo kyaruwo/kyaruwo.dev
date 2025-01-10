@@ -5,7 +5,7 @@
 
 <!-- start of Navigation -->
 <div
-  class="grid grid-flow-row gap-8 pb-4 pt-8 md:text-xl lg:grid-flow-col lg:px-44 lg:text-2xl"
+  class="mb-20 grid grid-flow-row gap-8 pb-4 pt-8 md:text-xl lg:grid-flow-col lg:px-44 lg:text-2xl"
 >
   <!-- start of kyaruwo -->
   {#if current_page != "/"}
