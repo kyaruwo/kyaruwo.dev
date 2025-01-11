@@ -13,7 +13,12 @@
       class="flex flex-row items-center justify-center gap-4 font-black tracking-widest lg:justify-start"
       href="/"
     >
-      <img class="size-8 rounded-full" src="/kyaneko.png" alt="avatar" />
+      <img
+        class="size-8 select-none rounded-full"
+        draggable="false"
+        src="/kyaneko.png"
+        alt="avatar"
+      />
       <span class="text-violet-200 hover:text-[#E1D8EF]">kyaruwo</span>
     </a>
   {/if}

@@ -7,7 +7,8 @@
 <div class="flex flex-grow flex-col items-center justify-center gap-4">
   <!-- start of avatar -->
   <img
-    class="size-60 rounded-full hover:scale-105"
+    class="size-60 select-none rounded-full hover:scale-105"
+    draggable="false"
     src="/kyaneko.png"
     alt="avatar"
   />
