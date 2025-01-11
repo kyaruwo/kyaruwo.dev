@@ -1,5 +1,6 @@
 <script>
-  import Navigation from "$lib/Navigation.svelte";
+  import Header from "$lib/Header.svelte";
+  import Footer from "$lib/Footer.svelte";
 
   const stackoyaki = [
     { name: "tailwindcss", description: "style" },
@@ -43,9 +44,9 @@
   ];
 </script>
 
-<Navigation />
+<Header />
 
-<div class="flex flex-col gap-24">
+<div class="my-20 flex flex-grow flex-col gap-24">
   <!-- start of stackoyaki -->
   <div class="flex flex-col gap-8">
     <!-- start of stackoyaki label -->
@@ -98,3 +99,5 @@
   </div>
   <!-- end of technologies -->
 </div>
+
+<Footer />

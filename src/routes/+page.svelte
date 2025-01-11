@@ -1,19 +1,19 @@
 <script>
-  import Navigation from "$lib/Navigation.svelte";
+  import Header from "$lib/Header.svelte";
 </script>
 
-<Navigation />
+<Header />
 
-<div class="flex flex-col items-center gap-4">
+<div class="flex flex-grow flex-col items-center justify-center gap-4">
   <!-- start of avatar -->
   <img class="size-60 rounded-full" src="/kyaneko.png" alt="avatar" />
   <!-- end of avatar -->
   <!-- start of kyaruwo programmer -->
   <div class="flex flex-row items-baseline gap-4">
-    <span class="text-4xl font-black text-violet-200 hover:text-[#E1D8EF]">
+    <span class="text-3xl font-black text-violet-200 hover:text-[#E1D8EF]">
       kyaruwo
     </span>
-    <p class="font-bold italic text-zinc-400 hover:text-orange-400">
+    <p class="text-base font-bold italic text-zinc-400 hover:text-orange-400">
       programmer
     </p>
   </div>

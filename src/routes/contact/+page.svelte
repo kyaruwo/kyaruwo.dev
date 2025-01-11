@@ -1,10 +1,17 @@
 <script>
-  import Navigation from "$lib/Navigation.svelte";
+  import Header from "$lib/Header.svelte";
+  import Footer from "$lib/Footer.svelte";
 </script>
 
-<Navigation />
+<Header />
 
-<div class="mt-40 flex flex-col items-center gap-4 text-4xl font-medium">
+<!-- start of under dev -->
+<div
+  class="flex flex-grow flex-col items-center justify-center gap-4 text-4xl font-medium"
+>
   <p>under</p>
   <p>development</p>
 </div>
+<!-- end of under dev -->
+
+<Footer />
