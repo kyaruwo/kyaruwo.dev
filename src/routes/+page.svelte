@@ -6,7 +6,11 @@
 
 <div class="flex flex-grow flex-col items-center justify-center gap-4">
   <!-- start of avatar -->
-  <img class="size-60 rounded-full" src="/kyaneko.png" alt="avatar" />
+  <img
+    class="size-60 rounded-full hover:scale-105"
+    src="/kyaneko.png"
+    alt="avatar"
+  />
   <!-- end of avatar -->
   <!-- start of kyaruwo programmer -->
   <div class="flex flex-row items-baseline gap-4">
@@ -27,7 +31,7 @@
       aria-label="sponsor"
     >
       <svg
-        class="size-8 fill-white hover:fill-[#db61a2]"
+        class="size-8 fill-white hover:scale-125 hover:fill-[#db61a2]"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -40,7 +44,7 @@
     <!-- start of github link -->
     <a href="https://github.com/kyaruwo" target="_blank" aria-label="github">
       <svg
-        class="size-8 fill-white hover:fill-[#24292f]"
+        class="size-8 fill-white hover:scale-125 hover:fill-[#24292f]"
         viewBox="0 0 256 250"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -57,7 +61,7 @@
       aria-label="discord"
     >
       <svg
-        class="size-8 fill-white hover:fill-[#5865F2]"
+        class="size-8 fill-white hover:scale-125 hover:fill-[#5865F2]"
         viewBox="0 0 256 199"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -74,7 +78,7 @@
       aria-label="yotube"
     >
       <svg
-        class="size-8 fill-transparent stroke-white stroke-[12] hover:fill-[#FF0000] hover:stroke-none"
+        class="size-8 fill-transparent stroke-white stroke-[12] hover:scale-125 hover:fill-[#FF0000] hover:stroke-none"
         viewBox="0 0 256 180"
         xmlns="http://www.w3.org/2000/svg"
       >

@@ -60,7 +60,7 @@
       {#each stackoyaki as tech}
         <div class="flex flex-col items-center">
           <img
-            class="size-12 select-none sm:size-16 md:size-20 lg:size-24"
+            class="size-12 select-none hover:scale-105 sm:size-16 md:size-20 lg:size-24"
             draggable="false"
             src="/tech-icons/{tech.name}.svg"
             alt={tech.name}
@@ -88,7 +88,7 @@
     >
       {#each technologies as tech}
         <img
-          class="size-10 select-none justify-self-center md:size-12 lg:size-14"
+          class="size-10 select-none justify-self-center hover:scale-125 md:size-12 lg:size-14"
           draggable="false"
           src="/tech-icons/{tech}.svg"
           alt={tech}
