@@ -29,11 +29,11 @@
   >
     {#each ["projects", "tech", "about", "contact"] as page}
       {#if current_page != "/" + page}
-        <a class="text-zinc-400 hover:text-zinc-200" href={page}>
+        <a class="text-zinc-400 hover:text-zinc-200" href="/{page}">
           {page}
         </a>
       {:else}
-        <a class="text-zinc-200 underline decoration-orange-400" href={page}>
+        <a class="text-zinc-200 underline decoration-orange-400" href="/{page}">
           {page}
         </a>
       {/if}
