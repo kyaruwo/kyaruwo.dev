@@ -6,7 +6,7 @@
     <a
       href="https://github.com/kyaruwo"
       target="_blank"
-      class="font-black text-violet-200 underline hover:text-[#E1D8EF]"
+      class="font-black text-violet-200 hover:text-[#E1D8EF]"
     >
       kyaruwo
     </a>
