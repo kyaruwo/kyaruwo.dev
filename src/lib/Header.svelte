@@ -1,7 +1,23 @@
 <script>
+  let props = $props();
+
   import { page } from "$app/stores";
   let current_page = $page.url.pathname;
 </script>
+
+<svelte:head>
+  <!-- start of title -->
+  {#if current_page != "/"}
+    {#if !props.title}
+      <!-- dynamic --> <title>{current_page.split("/")[1]} | kyaruwo</title>
+    {:else}
+      <!-- custom --> <title>{props.title} | kyaruwo</title>
+    {/if}
+  {:else}
+    <!-- default --> <title>kyaruwo</title>
+  {/if}
+  <!-- end of title -->
+</svelte:head>
 
 <!-- start of header -->
 <header

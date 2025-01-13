@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Not Found | kyaruwo</title>
+</svelte:head>
+
 <!-- start of 404 -->
 <div class="flex flex-grow flex-col items-center justify-center gap-4">
   <span class="text-9xl font-black">404</span>
