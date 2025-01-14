@@ -18,7 +18,7 @@
     <span class="text-3xl font-black text-violet-200 hover:text-[#E1D8EF]">
       kyaruwo
     </span>
-    <p class="text-base font-bold italic text-zinc-400 hover:text-orange-400">
+    <p class="text-base font-bold italic text-zinc-600 hover:text-orange-400">
       programmer
     </p>
   </div>
@@ -32,7 +32,7 @@
       aria-label="sponsor"
     >
       <svg
-        class="size-8 fill-white hover:scale-125 hover:fill-[#db61a2]"
+        class="size-8 fill-zinc-400 hover:scale-125 hover:fill-[#db61a2]"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -45,7 +45,7 @@
     <!-- start of github link -->
     <a href="https://github.com/kyaruwo" target="_blank" aria-label="github">
       <svg
-        class="size-8 fill-white hover:scale-125 hover:fill-[#24292f]"
+        class="size-8 fill-zinc-400 hover:scale-125 hover:fill-white"
         viewBox="0 0 256 250"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -55,6 +55,21 @@
       </svg>
     </a>
     <!-- end of github link -->
+    <!-- start of mailto: link -->
+    <a href="mailto:dm@kyaruwo.cloud" target="_blank" aria-label="mail">
+      <svg
+        class="size-8 stroke-zinc-400 stroke-2 hover:scale-125 hover:stroke-white"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25"
+        />
+      </svg>
+    </a>
+    <!-- end of mailto: link -->
     <!-- start of discord link -->
     <a
       href="https://discordapp.com/users/570640192269058120"
@@ -62,7 +77,7 @@
       aria-label="discord"
     >
       <svg
-        class="size-8 fill-white hover:scale-125 hover:fill-[#5865F2]"
+        class="size-8 fill-zinc-400 hover:scale-125 hover:fill-[#5865F2]"
         viewBox="0 0 256 199"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -72,27 +87,6 @@
       </svg>
     </a>
     <!-- end of discord link -->
-    <!-- start of youtube link -->
-    <a
-      href="https://www.youtube.com/@kyaruwo"
-      target="_blank"
-      aria-label="yotube"
-    >
-      <svg
-        class="size-8 fill-transparent stroke-white stroke-[12] hover:scale-125 hover:fill-[#FF0000] hover:stroke-none"
-        viewBox="0 0 256 180"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M250.346 28.075A32.18 32.18 0 0 0 227.69 5.418C207.824 0 127.87 0 127.87 0S47.912.164 28.046 5.582A32.18 32.18 0 0 0 5.39 28.24c-6.009 35.298-8.34 89.084.165 122.97a32.18 32.18 0 0 0 22.656 22.657c19.866 5.418 99.822 5.418 99.822 5.418s79.955 0 99.82-5.418a32.18 32.18 0 0 0 22.657-22.657c6.338-35.348 8.291-89.1-.164-123.134Z"
-        />
-        <path
-          class="fill-white"
-          d="m102.421 128.06 66.328-38.418-66.328-38.418z"
-        />
-      </svg>
-    </a>
-    <!-- end of youtube link -->
   </div>
   <!-- end of links -->
 </div>
