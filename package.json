@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
+    "dex": "vite dev --host",
     "build": "vite build",
     "postbuild": "node postbuild.js",
     "preview": "vite preview"
