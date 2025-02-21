@@ -4,10 +4,10 @@
 
   const stackoyaki = [
     { name: "tailwindcss", description: "style" },
-    { name: "svelte", description: "frontend" },
+    { name: "svelte", description: "UI" },
     { name: "caddy", description: "server" },
-    { name: "go", description: "backend" },
-    { name: "sqlite", description: "database" },
+    { name: "go", description: "API" },
+    { name: "sqlite", description: "DB" },
   ];
 
   const technologies = [
@@ -84,7 +84,7 @@
     <!-- end of technologies label -->
     <!-- start of technologies icons -->
     <div
-      class="grid grid-cols-5 gap-4 sm:mx-10 sm:grid-cols-10 md:mx-20 lg:mx-40"
+      class="grid grid-cols-5 gap-y-4 sm:mx-10 sm:grid-cols-10 md:mx-20 lg:mx-40"
     >
       {#each technologies as tech}
         <img
