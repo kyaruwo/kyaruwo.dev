@@ -24,7 +24,7 @@
       href="https://github.com/kyaruwo/kyaruwo.cloud"
       target="_blank"
     >
-      C
+      SOURCEC
       <svg
         class="size-4"
         viewBox="0 0 256 250"
