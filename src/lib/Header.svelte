@@ -43,7 +43,7 @@
   <div
     class="flex flex-row items-center justify-evenly font-semibold lg:justify-end lg:gap-8"
   >
-    {#each ["projects", "tech", "contact"] as page}
+    {#each ["projects", "tech"] as page}
       {#if current_page != "/" + page}
         <a class="text-zinc-400 hover:text-zinc-200" href="/{page}">
           {page}
