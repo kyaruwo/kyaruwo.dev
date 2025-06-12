@@ -21,7 +21,7 @@
     <!-- start of code -->
     <a
       class="flex flex-row items-center fill-zinc-200 font-black text-zinc-200 hover:fill-white hover:text-white"
-      href="https://github.com/kyaruwo/kyaruwo.cloud"
+      href="https://github.com/kyaruwo/kyaruwo.dev"
       target="_blank"
     >
       SOURCEC
@@ -45,9 +45,9 @@
     <p class="font-bold text-zinc-400">EMAIL</p>
     <a
       class="font-black text-zinc-200 hover:text-white"
-      href="mailto:dm@kyaruwo.cloud"
+      href="mailto:dm@kyaruwo.dev"
     >
-      dm@kyaruwo.cloud
+      dm@kyaruwo.dev
     </a>
   </div>
   <!-- end of EMAIL -->

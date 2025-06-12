@@ -1,7 +1,7 @@
 import { unlinkSync } from "fs";
 import { replaceInFileSync } from "replace-in-file";
 
-const build = "../_builds/kyaruwo.cloud/build";
+const build = "../_builds/kyaruwo.dev/build";
 
 try {
   unlinkSync(build + "/_app/env.js");

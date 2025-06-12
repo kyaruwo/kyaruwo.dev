@@ -147,8 +147,8 @@
     <!-- start of email -->
     <p class="-mt-2 text-center text-xs text-zinc-400">
       you can also contact me at
-      <a class="font-black hover:text-white" href="mailto:dm@kyaruwo.cloud">
-        dm@kyaruwo.cloud
+      <a class="font-black hover:text-white" href="mailto:dm@kyaruwo.dev">
+        dm@kyaruwo.dev
       </a>
     </p>
     <!-- end of email -->

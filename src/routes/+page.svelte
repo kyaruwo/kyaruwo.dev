@@ -56,7 +56,7 @@
     </a>
     <!-- end of github link -->
     <!-- start of mailto: link -->
-    <a href="mailto:dm@kyaruwo.cloud" aria-label="mail">
+    <a href="mailto:dm@kyaruwo.dev" aria-label="mail">
       <svg
         class="size-8 stroke-zinc-400 stroke-2 hover:scale-125 hover:stroke-white"
         viewBox="0 0 24 24"

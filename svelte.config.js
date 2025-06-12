@@ -1,6 +1,6 @@
 import adapter from "@sveltejs/adapter-static";
 
-const build = "../_builds/kyaruwo.cloud/build";
+const build = "../_builds/kyaruwo.dev/build";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
