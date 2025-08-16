@@ -18,7 +18,7 @@
     </p>
     <!-- end of developer -->
 
-    <!-- start of code -->
+    <!-- start of sourcecode -->
     <a
       class="flex flex-row items-center fill-zinc-200 font-black text-zinc-200 hover:fill-white hover:text-white"
       href="https://github.com/kyaruwo/kyaruwo.dev"
@@ -36,7 +36,7 @@
       </svg>
       DE
     </a>
-    <!-- end of code -->
+    <!-- end of sourcecode -->
   </div>
   <!-- end of github links -->
 
