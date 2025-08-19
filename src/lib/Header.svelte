@@ -35,8 +35,10 @@
         src="/kyaneko.png"
         alt="avatar"
       />
-      <span class="text-violet-200 hover:text-[#E1D8EF]">kyaruwo</span>
+      <h1 class="text-violet-200 hover:text-[#E1D8EF]">kyaruwo</h1>
     </a>
+  {:else}
+    <span class="size-8"></span>
   {/if}
   <!-- end of kyaruwo -->
   <!-- start of pages -->

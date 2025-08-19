@@ -4,7 +4,7 @@
 
 <Header />
 
-<div class="flex flex-grow flex-col items-center justify-center gap-4">
+<div class="my-20 flex flex-grow flex-col items-center justify-center gap-4">
   <!-- start of avatar -->
   <img
     class="size-60 select-none rounded-full hover:scale-105"
@@ -15,9 +15,9 @@
   <!-- end of avatar -->
   <!-- start of kyaruwo programmer -->
   <div class="flex flex-row items-baseline gap-4">
-    <span class="text-3xl font-black text-violet-200 hover:text-[#E1D8EF]">
+    <h2 class="text-3xl font-black text-violet-200 hover:text-[#E1D8EF]">
       kyaruwo
-    </span>
+    </h2>
     <p class="text-base font-bold italic text-zinc-600 hover:text-orange-400">
       programmer
     </p>
