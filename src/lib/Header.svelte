@@ -1,19 +1,19 @@
 <script>
 	let props = $props();
 
-	import kyaneko from "$lib/assets/kyaneko.png";
-
 	import { page } from "$app/stores";
 	let current_page = $page.url.pathname;
+
+	const pages = ["projects", "tech"];
 </script>
 
 <svelte:head>
 	<!-- start of title -->
 	{#if current_page != "/"}
 		{#if !props.title}
-			<!-- dynamic --> <title>{current_page.split("/")[1]} | kyaruwo</title>
+			<!-- dynamic --> <title>{current_page.split("/")[1]} - kyaruwo</title>
 		{:else}
-			<!-- custom --> <title>{props.title} | kyaruwo</title>
+			<!-- custom --> <title>{props.title} - kyaruwo</title>
 		{/if}
 	{:else}
 		<!-- default --> <title>kyaruwo</title>
@@ -21,43 +21,38 @@
 	<!-- end of title -->
 </svelte:head>
 
-<!-- start of header -->
 <header
 	class="grid grid-flow-row gap-8 pt-8 md:text-xl lg:grid-flow-col lg:px-44 lg:text-2xl"
 >
 	<!-- start of kyaruwo -->
-	{#if current_page != "/"}
+	<h1
+		class="flex flex-row items-center justify-center justify-self-center lg:justify-self-start"
+	>
 		<a
-			class="flex flex-row items-center justify-center gap-2 lg:justify-start"
+			class="satsuyako text-2xl tracking-wide text-violet-200 hover:text-[#E1D8EF]"
 			href="/"
 		>
-			<img
-				class="size-8 rounded-full select-none"
-				draggable="false"
-				src={kyaneko}
-				alt="avatar"
-			/>
-			<h1
-				class="satsuyako text-2xl font-black tracking-wide text-violet-200 hover:text-[#E1D8EF]"
-			>
-				kyaruwo
-			</h1>
+			kyaruwo
 		</a>
-	{:else}
-		<span class="size-8"></span>
-	{/if}
+	</h1>
 	<!-- end of kyaruwo -->
 	<!-- start of pages -->
 	<div
-		class="flex flex-row items-center justify-evenly font-semibold lg:justify-end lg:gap-8"
+		class="group flex flex-row items-center justify-evenly justify-self-center font-semibold lg:gap-8 lg:justify-self-end"
 	>
-		{#each ["projects", "tech"] as page}
+		{#each pages as page}
 			{#if current_page != "/" + page}
-				<a class="text-zinc-400 hover:text-zinc-200" href="/{page}">
+				<a
+					class="w-28 text-center text-zinc-400 decoration-orange-400 hover:text-zinc-200 hover:underline"
+					href="/{page}"
+				>
 					{page}
 				</a>
 			{:else}
-				<a class="text-zinc-200 underline decoration-orange-400" href="/{page}">
+				<a
+					class="w-28 text-center text-zinc-200 underline decoration-orange-400 group-hover:text-zinc-400 group-hover:no-underline hover:text-zinc-200 hover:underline"
+					href="/{page}"
+				>
 					{page}
 				</a>
 			{/if}
@@ -65,4 +60,3 @@
 	</div>
 	<!-- end of pages -->
 </header>
-<!-- end of header -->

@@ -16,9 +16,9 @@
 	/>
 	<!-- end of avatar -->
 	<!-- start of kyaruwo programmer -->
-	<div class="flex flex-row items-baseline gap-4">
+	<div class="flex flex-row items-baseline gap-2">
 		<h2
-			class="satsuyako text-4xl font-black tracking-wide text-violet-200 hover:text-[#E1D8EF]"
+			class="satsuyako text-4xl tracking-wide text-violet-200 hover:text-[#E1D8EF]"
 		>
 			kyaruwo
 		</h2>

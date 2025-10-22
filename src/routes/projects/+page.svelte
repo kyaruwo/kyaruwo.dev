@@ -76,7 +76,7 @@
 				<div class="flex flex-row gap-4">
 					<!-- start of project sourcecode -->
 					<a
-						class="fill-zinc-200 hover:scale-125 hover:fill-white"
+						class="fill-zinc-400 hover:scale-125 hover:fill-white"
 						href="https://{project.sourcecode}"
 						target="_blank"
 						aria-label="sourcecode"
@@ -94,7 +94,7 @@
 					<!-- end of project sourcecode -->
 					<!-- start of project link -->
 					<a
-						class="fill-zinc-200 hover:scale-125 hover:fill-white"
+						class="fill-zinc-400 hover:scale-125 hover:fill-white"
 						href="https://{project.link}"
 						target="_blank"
 						aria-label="link"

@@ -62,7 +62,7 @@
 	<div class="flex flex-col gap-8">
 		<!-- start of stackoyaki label -->
 		<div class="flex flex-col items-center">
-			<h2 class="text-4xl font-bold underline">stackoyaki</h2>
+			<h2 class="text-4xl font-bold">stackoyaki</h2>
 			<p class="text-zinc-400">web development stack</p>
 		</div>
 		<!-- end of stackoyaki label -->
@@ -89,7 +89,7 @@
 	<div class="flex flex-col gap-8">
 		<!-- start of technologies label -->
 		<div class="flex flex-col items-center">
-			<h2 class="text-4xl font-bold underline">technologies</h2>
+			<h2 class="text-4xl font-bold">technologies</h2>
 			<p class="text-zinc-400">I'm familiar with</p>
 		</div>
 		<!-- end of technologies label -->
