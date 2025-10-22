@@ -48,7 +48,7 @@
 
 <Header />
 
-<div class="my-20 flex flex-grow flex-col items-center justify-center">
+<div class="my-16 flex flex-grow flex-col items-center justify-center">
 	<div class="grid grid-cols-1 gap-20 lg:grid-cols-2">
 		{#each projects as project}
 			<!-- start of project -->

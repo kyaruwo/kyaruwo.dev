@@ -28,7 +28,7 @@
 	<!-- start of kyaruwo -->
 	{#if current_page != "/"}
 		<a
-			class="flex flex-row items-center justify-center gap-4 font-black tracking-widest lg:justify-start"
+			class="flex flex-row items-center justify-center gap-2 lg:justify-start"
 			href="/"
 		>
 			<img
@@ -37,7 +37,11 @@
 				src={kyaneko}
 				alt="avatar"
 			/>
-			<h1 class="text-violet-200 hover:text-[#E1D8EF]">kyaruwo</h1>
+			<h1
+				class="satsuyako text-2xl font-black tracking-wide text-violet-200 hover:text-[#E1D8EF]"
+			>
+				kyaruwo
+			</h1>
 		</a>
 	{:else}
 		<span class="size-8"></span>

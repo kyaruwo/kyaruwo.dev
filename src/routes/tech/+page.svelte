@@ -57,7 +57,7 @@
 
 <Header />
 
-<div class="my-20 flex flex-grow flex-col gap-24">
+<div class="my-16 flex flex-grow flex-col gap-24">
 	<!-- start of stackoyaki -->
 	<div class="flex flex-col gap-8">
 		<!-- start of stackoyaki label -->
