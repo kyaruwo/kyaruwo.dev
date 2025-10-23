@@ -1,5 +1,5 @@
 <footer
-	class="flex flex-col-reverse items-center justify-evenly gap-4 border-t-2 p-8 text-center sm:flex-row"
+	class="flex flex-col-reverse items-center justify-evenly gap-4 p-8 text-center sm:flex-row"
 >
 	<!-- start of github links -->
 	<div class="flex flex-col items-center justify-center sm:items-start">
