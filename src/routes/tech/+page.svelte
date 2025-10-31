@@ -1,12 +1,10 @@
 <script>
-	import Header from "$lib/Header.svelte";
-	import Footer from "$lib/Footer.svelte";
-
 	const assets = import.meta.glob("$lib/assets/tech/*.svg", {
 		eager: true,
 		query: "?url",
 		import: "default",
 	});
+
 	const icons = {};
 	for (const path in assets) {
 		const name = path.split("/").pop().replace(".svg", "");
@@ -19,7 +17,11 @@
 		{ name: "caddy", description: "server" },
 		{ name: "go", description: "API" },
 		{ name: "sqlite", description: "DB" },
-	];
+	].map((tech) => ({
+		name: tech.name,
+		icon: icons[tech.name],
+		description: tech.description,
+	}));
 
 	const technologies = [
 		"porkbun",
@@ -52,10 +54,11 @@
 		"json",
 		"javascript",
 		"html",
-	];
+	].map((name) => ({
+		name: name,
+		icon: icons[name],
+	}));
 </script>
-
-<Header />
 
 <div class="my-16 flex flex-grow flex-col gap-24">
 	<!-- start of stackoyaki -->
@@ -71,10 +74,11 @@
 			{#each stackoyaki as tech}
 				<div class="flex flex-col items-center">
 					<img
-						class="size-12 select-none hover:scale-105 sm:size-16 md:size-20 lg:size-24"
-						draggable="false"
-						src={icons[tech.name]}
+						src={tech.icon}
 						alt={tech.name}
+						class="size-12 select-none hover:scale-105 sm:size-16 md:size-20 lg:size-24"
+						title={tech.name}
+						draggable="false"
 					/>
 					<p class="text-xs text-zinc-400 sm:text-sm md:text-base lg:text-lg">
 						{tech.description}
@@ -99,10 +103,11 @@
 		>
 			{#each technologies as tech}
 				<img
+					src={tech.icon}
+					alt={tech.name}
 					class="size-10 justify-self-center select-none hover:scale-125 md:size-12 lg:size-14"
+					title={tech.name}
 					draggable="false"
-					src={icons[tech]}
-					alt={tech}
 				/>
 			{/each}
 		</div>
@@ -110,5 +115,3 @@
 	</div>
 	<!-- end of technologies -->
 </div>
-
-<Footer />
