@@ -1,23 +1,25 @@
 <script>
-	import { afterNavigate } from "$app/navigation";
 	import { page } from "$app/stores";
 
-	const pages = ["projects", "tech"];
+	const pages = ["/projects", "/tech"];
 	let currentPage = $derived($page.url.pathname);
+	let title = $derived(
+		(() => {
+			if (currentPage == "/") {
+				return "kyaruwo";
+			}
+
+			if (pages.includes(currentPage)) {
+				return `${currentPage.slice(1)} - kyaruwo`;
+			}
+
+			return "404 Not Found - kyaruwo";
+		})(),
+	);
 </script>
 
 <svelte:head>
-	<!-- start of title -->
-	{#if currentPage != "/"}
-		{#if currentPage != "/404"}
-			<!-- dynamic --> <title>{currentPage.split("/")[1]} - kyaruwo</title>
-		{:else}
-			<!-- 404 --> <title>404 Not Found - kyaruwo</title>
-		{/if}
-	{:else}
-		<!-- default --> <title>kyaruwo</title>
-	{/if}
-	<!-- end of title -->
+	<title>{title}</title>
 </svelte:head>
 
 <header
@@ -40,19 +42,19 @@
 		class="group flex flex-row items-center justify-evenly justify-self-center font-semibold lg:gap-8 lg:justify-self-end"
 	>
 		{#each pages as page}
-			{#if currentPage != "/" + page}
+			{#if currentPage == page}
 				<a
-					href="/{page}"
-					class="w-28 text-center text-zinc-400 decoration-orange-400 hover:text-zinc-200 hover:underline"
+					href={page}
+					class="w-28 text-center text-zinc-200 underline decoration-orange-400 group-hover:text-zinc-400 group-hover:no-underline hover:text-zinc-200 hover:underline"
 				>
-					{page}
+					{page.slice(1)}
 				</a>
 			{:else}
 				<a
-					href="/{page}"
-					class="w-28 text-center text-zinc-200 underline decoration-orange-400 group-hover:text-zinc-400 group-hover:no-underline hover:text-zinc-200 hover:underline"
+					href={page}
+					class="w-28 text-center text-zinc-400 decoration-orange-400 hover:text-zinc-200 hover:underline"
 				>
-					{page}
+					{page.slice(1)}
 				</a>
 			{/if}
 		{/each}
