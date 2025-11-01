@@ -14,8 +14,7 @@
 			<p class="font-bold text-zinc-400">
 				developed by
 				<a
-					href="https://github.com/kyaruwo"
-					target="_blank"
+					href="/"
 					class="font-black tracking-wide text-violet-200 hover:text-[#E1D8EF] hover:underline"
 				>
 					kyaruwo
