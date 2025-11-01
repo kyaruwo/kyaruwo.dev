@@ -45,14 +45,14 @@
 			{#if currentPage == page}
 				<a
 					href={page}
-					class="w-28 text-center text-zinc-200 underline decoration-orange-400 group-hover:text-zinc-400 group-hover:no-underline hover:text-zinc-200 hover:underline"
+					class="w-28 text-center text-zinc-200 underline decoration-violet-400 decoration-2 group-hover:text-zinc-400 group-hover:no-underline hover:text-zinc-200 hover:underline"
 				>
 					{page.slice(1)}
 				</a>
 			{:else}
 				<a
 					href={page}
-					class="w-28 text-center text-zinc-400 decoration-orange-400 hover:text-zinc-200 hover:underline"
+					class="w-28 text-center text-zinc-400 decoration-violet-400 decoration-2 hover:text-zinc-200 hover:underline"
 				>
 					{page.slice(1)}
 				</a>
