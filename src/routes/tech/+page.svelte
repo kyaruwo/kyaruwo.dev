@@ -24,36 +24,29 @@
 	}));
 
 	const technologies = [
-		"porkbun",
-		"cloudflare",
-		"github",
-		"markdown",
 		"githubdesktop",
-		"vscode",
-		"sqlitebrowser",
-		"alacritty",
-		"firefox",
-		"discord",
-		"nodejs",
-		"npm",
-		"godot",
-		"android",
-		"windows",
-		"syncthing",
+		"github",
 		"awslightsail",
+		"cloudflare",
+		"porkbun",
+
+		"syncthing",
+		"alacritty",
 		"debian",
-		"tmux",
 		"bash",
+		"tmux",
+
+		"npm",
+		"nodejs",
+		"vscode",
+		"air",
+		"sqlitebrowser",
+
 		"tailwindcss",
 		"svelte",
 		"caddy",
 		"go",
 		"sqlite",
-		"air",
-		"toml",
-		"json",
-		"javascript",
-		"html",
 	].map((name) => ({
 		name: name,
 		icon: icons[name],
@@ -99,13 +92,13 @@
 		<!-- end of technologies label -->
 		<!-- start of technologies icons -->
 		<div
-			class="grid grid-cols-5 gap-y-4 sm:mx-10 sm:grid-cols-10 md:mx-20 lg:mx-40"
+			class="grid grid-cols-5 justify-items-center gap-y-4 sm:mx-18 md:mx-28 lg:mx-48"
 		>
 			{#each technologies as tech}
 				<img
 					src={tech.icon}
 					alt={tech.name}
-					class="size-10 justify-self-center select-none hover:scale-125 md:size-12 lg:size-14"
+					class="size-10 select-none hover:scale-105 sm:size-12 md:size-16 lg:size-20"
 					title={tech.name}
 					draggable="false"
 				/>
