@@ -36,7 +36,7 @@
 		"bash",
 		"tmux",
 
-		"npm",
+		"python",
 		"nodejs",
 		"vscode",
 		"air",
